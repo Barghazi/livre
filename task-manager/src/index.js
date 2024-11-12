@@ -5,4 +5,4 @@ import App2 from "./App2";
 import App1 from "./App1";
 const element = document.getElementById("root");
 const root = ReactDOM.createRoot(element);
-root.render(<><App1/></>);
+root.render(<><App/><App2/><App1/></>);
